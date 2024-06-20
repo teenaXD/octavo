@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    scroll-behavior: smooth;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #efe1d9;
+}
+
+#logo {
+    height: 20px;
+    align-items: center;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 16px 50px;
+    box-shadow: 0 1px 8px rgb(111, 111, 111);
+    justify-content: space-between;
+    background-color: white;
+}
+
+header li {
+    list-style: none;
+    display: inline-block;
+    padding: 0 20px;
+}
+
+header a {
+    text-decoration: none;
+    color: #555;
+    transition: all 0.3s ease 0s;
+}
+
+nav a:hover {
+    color: #FF495C;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 250px;
+    margin: 0 160px;
+}
+
+.student img {
+    border-radius: 50%;
+    height: 100px;
+    transition: all ease 300ms;
+}
+
+.student {
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.7);
+    width: 460px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 12px;
+    transition: all ease 300ms;
+}
+
+.student:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px black;
+}
+
+.student:hover>.details>hr {
+    background-color: #FF495C;
+}
+
+.student:hover>img {
+    border-radius: 12px;
+}
+
+.heading {
+    font-size: 100px;
+    text-align: center;
+    padding: 40px;
+    border-style: dashed;
+    width: 600px;
+    margin: auto;
+    border-color: #FF495C;
+    border-width: 4px;
+    border-radius: 12px;
+    color: #555;
+}
+
+.details hr {
+    margin: auto;
+    width: 95%;
+    height: 1px;
+    align-items: center;
+    transition: all ease 400ms;
+    background-color: black;
+}
+
+.details {
+    width: 300px;
+}
+
+.quote {
+    width: 1100px;
+    margin: auto;
+    font-size: 36px;
+    color: #555;
+    text-align: center;
+}
+
+.details h3 {
+    line-height: 28px;
+}
