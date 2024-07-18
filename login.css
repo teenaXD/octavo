@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium';
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("media/bg.jpg");
+    background-size: cover;
+}
+
+.window-left {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.96);
+    height: 50vh;
+    width: 30vw;
+    line-height: 44px;
+    border-radius: 14px;
+    box-shadow: 0 0 200px black;
+}
+
+.window-left input {
+    border-style: none;
+    background-color: rgba(237, 237, 237, 1);
+    padding: 16px;
+    font-size: 18px;
+    border-radius: 8px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+h1 {
+    font-size: 40px;
+    text-align: center;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+button {
+    width: 220px;
+    height: 70px;
+    font-size: 28px;
+    border-style: none;
+    border-radius: 10px;
+    color: white;
+    background: linear-gradient(to left, #ff9ea8 30%, #FF495C 70%) right;
+    background-size: 200% 100%;
+    transition: all ease 0.6s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+button:hover {
+    font-size: 32px;
+    background-position: left;
+}
+
+.window {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+}
+
+.window-right {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.window-right h1 {
+    font-size: 90px;
+    width: 50vw;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-shadow: 0 0 30px black;
+}
+
+.window-right p {
+    font-size: 30px;
+    width: 50vw;
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    text-shadow: 0 0 30px black;
+}
